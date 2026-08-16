@@ -1,0 +1,35 @@
+# Theme sur mesure (champ de mais / grains) plutot qu'un theme generique :
+# barre laterale vert fonce et or en accent, contenu principal clair, police
+# serif pour les titres (registre "rapport scientifique") et sans-serif pour
+# le corps de texte.
+[theme]
+base = "light"
+primaryColor = "#2C5F2D"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#EEF2E9"
+textColor = "#1A2E17"
+linkColor = "#2C5F2D"
+borderColor = "#D8DED0"
+codeBackgroundColor = "#EEF2E9"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+
+font = "'IBM Plex Sans':https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+headingFont = "'Source Serif 4':https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&display=swap"
+codeFont = "'IBM Plex Mono':https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+
+chartCategoricalColors = ["#2C5F2D", "#D9A441", "#A9431E", "#6B8E4E", "#57606A", "#8B5A2B"]
+
+greenColor = "#2C5F2D"
+orangeColor = "#D9A441"
+redColor = "#A9431E"
+
+[theme.sidebar]
+backgroundColor = "#1F3D1A"
+secondaryBackgroundColor = "#16290F"
+textColor = "#F7F3E9"
+primaryColor = "#D9A441"
+borderColor = "#355C2A"
