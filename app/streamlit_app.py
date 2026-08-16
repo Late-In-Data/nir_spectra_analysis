@@ -115,6 +115,7 @@ with st.sidebar:
         "(m5, mp5, mp6), 1100-2498 nm.\n\n"
         "Source: Cargill / Eigenvector Research."
     )
+    st.caption("Laté Lawson  \nlatejeanjacques@gmail.com")
 
 if target is None:
     target = TARGET_NAMES[0]
