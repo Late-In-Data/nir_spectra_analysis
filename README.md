@@ -2,6 +2,9 @@
 
 *Des baselines PLS au transfert de calibration inter-instruments, sur le benchmark Corn (Cargill/Eigenvector).*
 
+🚀 **[Démo en ligne](https://corn-nir-spectra-analysis-llw.streamlit.app/)** : essayer l'app directement dans
+le navigateur, sans installation.
+
 📄 **[Rapport complet (PDF, français)](reports/Corn_NIR_Rapport_Complet.pdf)** : méthodologie, résultats et
 discussion détaillés.
 
@@ -353,11 +356,12 @@ pas comme méthode utilisable.
 
 ### Démo Streamlit
 
-Le chargement des données `app/streamlit_app.py`, trois onglets : présentation du projet, exploration des spectres (superposition
-VIP, spectres colorés par propriété cible pour retrouver visuellement le diagnostic de la Phase A/B) et
-ajustement interactif d'un modèle sur un split Kennard-Stone reproductible, avec résultat immédiat. Tout
-est calculé sur les mêmes fonctions que les notebooks, rien n'est lu d'un rapport pré-calculé. Rédigée en
-anglais. Lancer avec `streamlit run app/streamlit_app.py`.
+**[À essayer en ligne](https://corn-nir-spectra-analysis-llw.streamlit.app/)**, ou en local avec
+`streamlit run app/streamlit_app.py`. `app/streamlit_app.py`, trois onglets : présentation du projet,
+exploration des spectres (superposition VIP, spectres colorés par propriété cible pour retrouver
+visuellement le diagnostic de la Phase A/B) et ajustement interactif d'un modèle sur un split Kennard-Stone
+reproductible, avec résultat immédiat. Tout est calculé sur les mêmes fonctions que les notebooks, rien
+n'est lu d'un rapport pré-calculé. Rédigée en anglais.
 
 ## Tableau récapitulatif
 
