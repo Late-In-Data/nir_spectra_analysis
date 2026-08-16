@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/processed/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Local-only reference material (old exploratory work, course PDFs, the
+# original project brief) — kept on disk for personal reference, never
+# published.
+draft/
+
+# Claude Code tooling config (local session state, not project content) —
+# except launch.json, which documents how to run the Streamlit dev server.
+.claude/*
+!.claude/launch.json
+
+# reports/figures/*.png and reports/results/*.csv are intentionally NOT
+# ignored: the README embeds the figures directly, and the Streamlit app
+# reads the results CSVs so it has content on a fresh clone without first
+# waiting ~15-20 min for `run_benchmark.py` to finish. Both are still fully
+# reproducible from the commands in the README.
